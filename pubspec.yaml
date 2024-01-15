@@ -33,6 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   freezed: ^2.2.0
+  flutter_flavorizr: ^2.1.5
   injectable_generator: ^2.1.3
   json_serializable: ^6.4.1
   mocktail: ^0.3.0
@@ -41,4 +42,27 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios:
+
+  flavors:
+    development:
+      app:
+        name: "Playstation Development"
+      android:
+        applicationId: "id.johnnypramadya.playstation.dev"
+      ios:
+        bundleId: "id.johnnypramadya.playstation.dev"
+
+    production:
+      app:
+        name: "Playstation App"
+      android:
+        applicationId: "id.johnnypramadya.playstation"
+      ios:
+        bundleId: "id.johnnypramadya.playstation"
 
