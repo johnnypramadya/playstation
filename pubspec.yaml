@@ -1,0 +1,44 @@
+name: playstation
+description: Play Station games
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: 3.3.10
+
+dependencies:
+  auto_route: ^5.0.1
+  bloc: ^8.1.0
+  dartz: ^0.10.1
+  chopper: ^4.0.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_html: 3.0.0-alpha.6
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  injectable: ^2.1.0
+  intl: ^0.17.0
+  json_annotation: ^4.7.0
+  pull_to_refresh: ^2.0.0
+
+
+dev_dependencies:
+  auto_route_generator:
+  bloc_test: ^9.1.0
+  build_runner:
+  chopper_generator:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.2.0
+  injectable_generator: ^2.1.3
+  json_serializable: ^6.4.1
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.1.0
+
+flutter:
+
+  uses-material-design: true
+
